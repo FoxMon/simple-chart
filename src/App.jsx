@@ -1,5 +1,7 @@
+import Base from "../lib/components/Base";
+
 function App() {
-  return <div>Hello</div>;
+  return <Base />;
 }
 
 export default App;
