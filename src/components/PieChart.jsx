@@ -1,5 +1,5 @@
 import Base from "./Base";
-import { pieChartCreator } from "../charts/creator";
+import { pieChartCreator } from "../lib/charts/creator";
 
 function PieChart({ datas, width, height }) {
   const node = pieChartCreator(datas, width, height);

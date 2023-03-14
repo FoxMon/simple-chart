@@ -1,5 +1,5 @@
 import Base from "./Base";
-import { barChartCreator } from "../charts/creator";
+import { barChartCreator } from "../lib/charts/creator";
 
 function BarChart({ datas, width, height }) {
   const node = barChartCreator(datas, width, height);

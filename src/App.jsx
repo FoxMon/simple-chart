@@ -1,5 +1,5 @@
-import PieChart from "../lib/components/PieChart";
-import BarChart from "../lib/components/BarChart";
+import PieChart from "./components/PieChart";
+import BarChart from "./components/BarChart";
 
 function App() {
   return (
